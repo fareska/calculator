@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Calculator S</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet" />
+  <link href="css2/normalize.css" rel="stylesheet" />
+  <link href="css2/reset.css" rel="stylesheet" />
+  <link href="css2/styles.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="container">
+    <input class="radioBtn" type="radio" id="basic" name="calculator" value="basic">
+    <label for="basic">Basic</label><br>
+    <input type="radio" class="radioBtn" id="science" name="calculator" value="science">
+    <label for="science">Science</label><br>
+    <div class="calculator">
+      <div class="calculator__display">0</div>
+      <div class="calculator__keys">
+        <button class="operator plus">+</button>
+        <button class="operator minus">-</button>
+        <button class="operator times">&times;</button>
+        <button class="operator divide">÷</button>
+        <button class="number one">1</button>
+        <button class="number two">2</button>
+        <button class="number three">3</button>
+        <button class="number four">4</button>
+        <button class="number five">5</button>
+        <button class="number six">6</button>
+        <button class="number seven">7</button>
+        <button class="number eight">8</button>
+        <button class="number nine">9</button>
+        <button class="number zero">0</button>
+        <button class="number decimal">.</button>
+        <button class="number clear">C</button>
+        <button onclick="calculate()" class="equal">=</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="mains.js"></script>
+</body>
+
+</html>

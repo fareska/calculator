@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    
+    <link
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,700"
+    rel="stylesheet"
+    />
+    <link href="./css1/normalize.css" rel="stylesheet" />
+    <link href="./css1/reset.css" rel="stylesheet" />
+    <link href="./css1/styles.css" rel="stylesheet" />
+    
+    <title>Calculator</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="calculator">
+        <div class="calculator__display">0</div>
+        <div class="input calculator__display"></div>
+        <div class="calculator__keys">
+          <button class="operator" data-key="plus" data-type="operator">+</button>
+          <button class="operator" data-key="minus" data-type="operator">-</button>
+          <button class="operator" data-key="times" data-type="operator">&times;</button>
+          <button class="operator" data-key="divide" data-type="operator">÷</button>
+          <button class="number" data-key="1" data-type="number">1</button>
+          <button class="number" data-key="2" data-type="number">2</button>
+          <button class="number" data-key="3" data-type="number">3</button>
+          <button class="number" data-key="4" data-type="number">4</button>
+          <button class="number" data-key="5" data-type="number">5</button>
+          <button class="number" data-key="6" data-type="number">6</button>
+          <button class="number" data-key="7" data-type="number">7</button>
+          <button class="number" data-key="8" data-type="number">8</button>
+          <button class="number" data-key="9" data-type="number">9</button>
+          <button class="number" data-key="0" data-type="number">0</button>
+          <button class="number" class="decimal" data-type="number">.</button>
+          <button class="deleteBtn"  >DEL</button>
+          <button class="clear" data-type="clear">C</button>
+          <button id="equals" data-key="equal" data-type="equal">=</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="cal.js"></script>
+  </body>
+</html>
